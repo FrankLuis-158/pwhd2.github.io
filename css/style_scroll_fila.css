@@ -1,0 +1,10 @@
+.scroll-line
+{
+    position: fixed;
+    height: 6px;
+    /* margin-top: 10px; */
+    background: #0d8eed;
+    /* valor que va a cambiar mediante javasecript */
+    width: 0%;
+    z-index: 1;
+}

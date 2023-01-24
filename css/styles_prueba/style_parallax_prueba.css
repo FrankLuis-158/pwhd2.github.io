@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding:0
+}
+
+
+/* body
+{
+    width: 100%;
+    font-family: 'lato';
+} */
+
+.parallax-completo
+{
+    width: 100%;
+    height: 100vh;
+    background: url('/img/caballeros_de_oro/logo/logo3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-hero
+{
+    background: black;
+    padding: 18px;
+    width: 320px;
+    text-align: center;
+    color: white;
+    
+
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 300;
+}
+
+
+.center
+{
+    max-width: 1100px;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+text-align: center;
+}
+
+
+
+.espacio
+{
+    padding: 30px 0 60px 0;
+}
+
+.espacio h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.espacio p{
+    text-align: justify;
+    font-family: 'lato';
+}
+
+.espacio .logan{
+    text-align: center;
+    font-family: 'lato';
+}
+
+.parallax-chico
+{
+    
+    height: 450px;
+    /* background: url('/img/caballeros_de_oro/logo/logo3.jpg'); */
+    /* background: url('/img/parallax/fondo_parallax_1.gif'); */
+    background: transparent url('/img/parallax/fondo_parallax_1.gif') repeat top left; 
+    background-attachment: fixed;
+    /* filter: blur(2px); */
+    /* background-position: center; */
+    background-size: cover;
+    /* background-repeat: fixed; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-position: bottom;
+
+}
+
+.parallax-chico h2{
+    display: flex;
+    height: inherit;
+
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+}
+
+.texto{
+background:#ccc;
+height: 190px;
+}
+
+.texto h2
+{
+text-align: center;
+color: black;
+display: flex;
+height: inherit;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
+
+
+@media(max-width : 560px)
+{
+
+.parallax-chico
+{
+    
+    height: 450px;
+    width: 100%;    
+    background: url('/img/parallax/fondo_parallax_1.gif');
+    background-attachment: fixed;
+    
+    background-size: cover;
+   
+    background-position: -350px;
+    /* background-size: 700px; */
+    
+    
+
+}
+
+}

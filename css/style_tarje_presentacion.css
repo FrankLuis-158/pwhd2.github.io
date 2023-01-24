@@ -1,0 +1,462 @@
+/* 
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fbe9e7;
+} */
+
+
+
+.card_50
+{
+    /* position: relative; */
+
+     width: 400px;
+    height: 400px; 
+    
+    /* border: 1px solid red; */
+    
+
+    /* background: url(../img/tarjeta_presentacion/tarjeta_presentacion4.jpg); */
+     /* #023859; */
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+    margin: 50px auto;
+    transition: 1s;
+    
+    /* background-position: center;
+    background-size: 500px 500px;
+    background-repeat: no-repeat; */
+    
+    /* background-attachment: fixed; */
+}
+
+.card_50:hover
+{
+    transform: translateX(50%);
+}
+
+
+.card_50 .imgBox
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    background: #000;
+    transition: 1s;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+    
+}
+
+.card_50:hover .imgBox
+{
+transform: rotateY(-180deg);
+}
+
+.card_50 .imgBox img
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+transform-style: preserve-3d;
+/* border: 1px solid red; */
+
+
+/* backface-visibility: hidden;  es para separar y poner una segunda imagen con el codigo de abajo */ 
+}
+
+.card_50 .imgBox img:nth-child(2)
+{
+
+    transform: rotateY(180deg);
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-left:   50%;
+    
+    
+}
+.card_50 .imgBox img:nth-child(3)
+{
+
+    transform: rotateY(180deg);
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-right:   50%;
+    
+    
+}
+
+
+
+
+
+
+.card_50 .details
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+padding: 20px;
+display: flex;
+justify-content: center;
+text-align: center;
+/* border: 1px solid springgreen; */
+/* overflow: hidden; */
+
+
+}
+
+
+
+
+.card_50 .details .content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+/* overflow: hidden; */
+    
+    
+}
+
+.card_50 .details .content h2
+{
+    text-align: center;
+    font-weight: 700;
+    line-height: 1em;
+    
+}
+
+.card_50 .details .content h2 span{
+    color: #e21212;
+    font-size: 0.8em;
+}
+
+.card_50 .details .content .social-icons
+{
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+}
+
+.card_50 .details .content .social-icons a
+{
+display: inline-block;
+width: 35px;
+height: 35px;
+background: #333;
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+margin: 5px;
+font-size: 18px;
+transition: 0.2s;
+}
+
+
+
+
+
+.card_50 .details .content .social-icons a:hover
+{
+background: #e21212;
+}
+
+
+
+h2
+{
+    color: white;
+    /* font-size: 30px; */
+}
+
+
+
+
+.linea_movimiento_izquierda
+{
+
+    position: absolute;
+    top: 0;
+    right: 98.4%;   
+    width: 5px;
+    height: 50%;
+    background: linear-gradient(to bottom, transparent, #1779ff);
+    /* background:#1779ff ; */
+    animation: animate1 1s linear infinite;
+    /* border: 1px solid red; */
+    
+    
+}
+
+
+@keyframes animate1
+{
+   0%
+   {
+       transform: translateY(0%);
+   }    
+   100%
+   {
+       transform: translateY(100%);
+   }
+}
+
+
+
+
+
+.linea_movimiento_abajo
+{
+
+    position: absolute;
+    top: 98.4%;
+    left: 0%;
+    right: 100px;
+    width: 50%;
+    height: 5px;
+    background: linear-gradient(to right, transparent, #1779ff);
+    /* background:#1779ff ; */
+    animation: animate2 1s linear infinite;
+    /* border: 1px solid red; */
+    
+    
+}
+
+
+@keyframes animate2
+{
+   0%
+   {
+       transform: translateX(0%);
+   }    
+   100%
+   {
+       transform: translateX(100%);
+   }
+}
+
+
+
+
+
+
+
+.linea_movimiento_derecha
+{
+
+    position: absolute;
+    top: 0%;
+    right: 0%;   
+    width: 5px;
+    height: 50%;
+    background: linear-gradient(to top, transparent, #1779ff);
+    /* background:#1779ff ; */
+    animation: animate3 1s linear infinite;
+    /* border: 1px solid red; */
+    
+    
+}
+
+
+@keyframes animate3
+{
+   0%
+   {
+       transform: translateY(100%);
+   }    
+   100%
+   {
+       transform: translateY(0%);
+   }
+}
+
+
+
+
+
+.linea_movimiento_arriba
+{
+
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 100px;
+    width: 50%;
+    height: 5px;
+    background: linear-gradient(to left, transparent, #1779ff);
+    /* background:#1779ff ; */
+    animation: animate4 1s linear infinite;
+    /* border: 1px solid red; */
+    
+    
+}
+
+
+@keyframes animate4
+{
+   0%
+   {
+       transform: translateX(100%);
+   }    
+   100%
+   {
+       transform: translateX(0%);
+   }
+}
+
+
+
+
+
+
+
+
+
+@media(max-width : 560px)
+{
+
+.card_50
+{
+    /* position: relative; */
+
+     width: 300px;
+    height: 300px; 
+    
+     /*border: 1px solid red; */
+    
+
+    /* background: tan; */
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+    margin: 200px auto;
+    transition: 1s;
+    
+
+}
+
+
+.card_50 .imgBox
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* right: 6px; */
+    z-index: 1;
+    transform-origin: top;
+    transform-style: preserve-3d;
+    background: #000;
+    transition: 1s;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+    
+}
+
+.card_50 .imgBox img
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+transform-style: preserve-3d;
+
+/* backface-visibility: hidden;  es para separar y poner una segunda imagen con el codigo de abajo */ 
+}
+
+
+
+
+
+.card_50:hover
+{
+    transform: translateY(35%);
+}
+
+
+.card_50:hover .imgBox
+{
+transform: rotateX(180deg);
+}
+
+.card_50 .imgBox img
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+transform-style: preserve-3d;
+/* border: 1px solid red; */
+
+
+/* backface-visibility: hidden;  es para separar y poner una segunda imagen con el codigo de abajo */ 
+}
+
+
+.card_50 .imgBox img:nth-child(2)
+{
+
+    transform: rotateX(180deg);
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-left:  0%;
+    
+    
+}
+.card_50 .imgBox img:nth-child(3)
+{
+
+    transform: rotateX(180deg);
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-left:   50%;
+    
+    
+}
+
+
+}
+
+@media(max-width : 320px)
+{
+    .card_50
+    {
+        /* position: relative; */
+    
+         width: 300px;
+        height: 300px; 
+        
+       /* border: 1px solid red; */
+        
+    
+        background: tan;
+        transform-style: preserve-3d;
+        transform: perspective(1000px);
+        box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+        margin: 50px auto;
+        transition: 1s;
+        
+    
+    }
+}

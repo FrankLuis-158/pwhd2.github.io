@@ -1,0 +1,921 @@
+/* ----------------1 Cubo Gitatorio "Frases"---------------- */
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.card 
+{  
+    transform: translate(0%,0%);
+    width: 210px;
+    height: 300px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.card .front
+{
+    width: 99.7%;
+    height: 100%;
+    background: #2196f3;    
+    box-sizing: border-box;
+    transition: .5s;
+    transform-origin: right;
+    margin: 0 auto;
+}
+
+.more
+{    
+    width: 100%;    
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    font-size: 24px;
+    color: #fff;  
+    display: block;
+    background:teal    
+}
+
+.card .back
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    /* 283 */
+    padding: 30px;
+    background: #ff2877;
+    box-sizing: border-box;
+    transform-origin: left;
+    transition: .5s;
+    transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
+}
+
+.card .back.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card .front.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card .front
+{
+    transform: translateX(-100%) rotateY(90deg);
+}
+
+
+.go-back
+{
+    font-size: 24px;
+    color: #FFF;
+    text-align: right;
+    cursor: pointer;
+} 
+
+/* ----------------1 Cubo Gitatorio "Frases"---------------- */
+
+
+
+
+
+
+/* ----------------2 Cubo Gitatorio "Caballeros del zodiaco"---------------- */
+
+
+.card_2
+{  
+    transform: translate(0%,0%);
+    width: 210px;
+    height: 300px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.card_2 .front_2
+{
+    width: 99.7%;
+    height: 100%;
+    background: #2196f3;    
+    box-sizing: border-box;
+    transition: .5s;
+    transform-origin: right;
+}
+
+.more_2
+{    
+    width: 100%;    
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    font-size: 24px;
+    color: #fff;  
+    display: block;
+    background:teal    
+}
+
+.card_2 .back_2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    /* 283 */
+    padding: 30px;
+    background: #ff2877;
+    box-sizing: border-box;
+    transform-origin: left;
+    transition: .5s;
+    transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
+}
+
+.card_2 .back_2.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_2 .front_2.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_2 .front_2
+{
+    transform: translateX(-100%) rotateY(90deg);
+}
+
+
+.go-back_2
+{
+    font-size: 24px;
+    color: #FFF;
+    text-align: right;
+    cursor: pointer;
+} 
+
+/* ----------------2 Cubo Gitatorio "Caballeros del Zodiaco"---------------- */
+
+
+
+
+/* ----------------3 Cubo Gitatorio "Yuyu Hakusho"---------------- */
+
+
+.card_3
+{  
+    transform: translate(0%,0%);
+    width: 210px;
+    height: 300px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.card_3 .front_3
+{
+    width: 99.7%;
+    height: 100%;
+    background: #2196f3;    
+    box-sizing: border-box;
+    transition: .5s;
+    transform-origin: right;
+}
+
+.more_3
+{    
+    width: 100%;    
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    font-size: 24px;
+    color: #fff;  
+    display: block;
+    background:teal    
+}
+
+.card_3 .back_3
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    /* 283 */
+    padding: 30px;
+    background: #ff2877;
+    box-sizing: border-box;
+    transform-origin: left;
+    transition: .5s;
+    transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
+}
+
+.card_3 .back_3.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_3 .front_3.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_3 .front_3
+{
+    transform: translateX(-100%) rotateY(90deg);
+}
+
+
+.go-back_3
+{
+    font-size: 24px;
+    color: #FFF;
+    text-align: right;
+    cursor: pointer;
+} 
+
+/* ----------------3 Cubo Gitatorio "Yuyu Hakusho"---------------- */
+
+
+
+
+
+/* ----------------4 Cubo Gitatorio "Sailor Moon"---------------- */
+
+
+.card_4
+{  
+    transform: translate(0%,0%);
+    width: 210px;
+    height: 300px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.card_4 .front_4
+{
+    width: 99.7%;
+    height: 100%;
+    background: #2196f3;    
+    box-sizing: border-box;
+    transition: .5s;
+    transform-origin: right;
+}
+
+.more_4
+{    
+    width: 100%;    
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    font-size: 24px;
+    color: #fff;  
+    display: block;
+    background:teal    
+}
+
+.card_4 .back_4
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    /* 283 */
+    padding: 30px;
+    background: #ff2877;
+    box-sizing: border-box;
+    transform-origin: left;
+    transition: .5s;
+    transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
+}
+
+.card_4 .back_4.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_4 .front_4.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_4 .front_4
+{
+    transform: translateX(-100%) rotateY(90deg);
+}
+
+
+.go-back_4
+{
+    font-size: 24px;
+    color: #FFF;
+    text-align: right;
+    cursor: pointer;
+} 
+
+/* ----------------4 Cubo Gitatorio "Sailor Moon"---------------- */
+
+
+
+
+/* ----------------5 Cubo Gitatorio "Las Tortugas"---------------- */
+
+
+.card_5
+{  
+    transform: translate(0%,0%);
+    width: 210px;
+    height: 300px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.card_5 .front_5
+{
+    width: 99.7%;
+    height: 100%;
+    background: #2196f3;    
+    box-sizing: border-box;
+    transition: .5s;
+    transform-origin: right;
+}
+
+.more_5
+{    
+    width: 100%;    
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    font-size: 24px;
+    color: #fff;  
+    display: block;
+    background:teal    
+}
+
+.card_5 .back_5
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    /* 283 */
+    padding: 30px;
+    background: #ff2877;
+    box-sizing: border-box;
+    transform-origin: left;
+    transition: .5s;
+    transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
+}
+
+.card_5 .back_5.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_5 .front_5.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_5 .front_5
+{
+    transform: translateX(-100%) rotateY(90deg);
+}
+
+
+.go-back_5
+{
+    font-size: 24px;
+    color: #FFF;
+    text-align: right;
+    cursor: pointer;
+} 
+
+/* ----------------5 Cubo Gitatorio "Las Tortugas"---------------- */
+
+
+
+/* ----------------6 Cubo Gitatorio "Las Tortugas"---------------- */
+
+
+.card_6
+{  
+    transform: translate(0%,0%);
+    width: 210px;
+    height: 300px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.card_6 .front_6
+{
+    width: 99.7%;
+    height: 100%;
+    background: #2196f3;    
+    box-sizing: border-box;
+    transition: .5s;
+    transform-origin: right;
+}
+
+.more_6
+{    
+    width: 100%;    
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    font-size: 24px;
+    color: #fff;  
+    display: block;
+    background:teal    
+}
+
+.card_6 .back_6
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    /* 283 */
+    padding: 30px;
+    background: #ff2877;
+    box-sizing: border-box;
+    transform-origin: left;
+    transition: .5s;
+    transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
+}
+
+.card_6 .back_6.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_6 .front_6.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_6 .front_6
+{
+    transform: translateX(-100%) rotateY(90deg);
+}
+
+
+.go-back_6
+{
+    font-size: 24px;
+    color: #FFF;
+    text-align: right;
+    cursor: pointer;
+} 
+
+/* ----------------6 Cubo Gitatorio "Las Tortugas"---------------- */
+
+
+
+/* ----------------7 Cubo Gitatorio "Genshi"---------------- */
+
+
+.card_7
+{  
+    transform: translate(0%,0%);
+    width: 210px;
+    height: 300px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.card_7 .front_7
+{
+    width: 99.7%;
+    height: 100%;
+    background: #2196f3;    
+    box-sizing: border-box;
+    transition: .5s;
+    transform-origin: right;
+}
+
+.more_7
+{    
+    width: 100%;    
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    font-size: 24px;
+    color: #fff;  
+    display: block;
+    background:teal    
+}
+
+.card_7 .back_7
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    /* 283 */
+    /* padding: 30px; */
+    padding: 30px;
+    background: #ff2877;
+    box-sizing: border-box;
+    transform-origin: left;
+    transition: .5s;
+    transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
+}
+
+.card_7 .back_7.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_7 .front_7.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_7 .front_7
+{
+    transform: translateX(-100%) rotateY(90deg);
+}
+
+
+.go-back_7
+{
+    font-size: 24px;
+    color: #FFF;
+    text-align: right;
+    cursor: pointer;
+} 
+
+/* ----------------7 Cubo Gitatorio "Genshi"---------------- */
+
+
+
+/* ----------------8 Cubo Gitatorio "Your Name"---------------- */
+
+
+.card_8
+{  
+    transform: translate(0%,0%);
+    width: 210px;
+    height: 300px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.card_8 .front_8
+{
+    width: 99.7%;
+    height: 100%;
+    background: #2196f3;    
+    box-sizing: border-box;
+    transition: .5s;
+    transform-origin: right;
+}
+
+.more_8
+{    
+    width: 100%;    
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    font-size: 24px;
+    color: #fff;  
+    display: block;
+    background:teal    
+}
+
+.card_8 .back_8
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    /* 283 */
+    /* padding: 30px; */
+    padding: 30px;
+    background: #ff2877;
+    box-sizing: border-box;
+    transform-origin: left;
+    transition: .5s;
+    transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
+}
+
+.card_8 .back_8.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_8 .front_8.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_8 .front_8
+{
+    transform: translateX(-100%) rotateY(90deg);
+}
+
+
+.go-back_8
+{
+    font-size: 24px;
+    color: #FFF;
+    text-align: right;
+    cursor: pointer;
+} 
+
+/* ----------------8 Cubo Gitatorio "Your Name"---------------- */
+
+
+
+
+
+
+/* ----------------9 Cubo Gitatorio "Gundam Wing"---------------- */
+
+
+.card_9
+{  
+    transform: translate(0%,0%);
+    width: 210px;
+    height: 300px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.card_9 .front_9
+{
+    width: 99.7%;
+    height: 100%;
+    background: #2196f3;    
+    box-sizing: border-box;
+    transition: .5s;
+    transform-origin: right;
+}
+
+.more_9
+{    
+    width: 100%;    
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    font-size: 24px;
+    color: #fff;  
+    display: block;
+    background:teal    
+}
+
+.card_9 .back_9
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    /* 283 */
+    /* padding: 30px; */
+    padding: 30px;
+    background: #ff2877;
+    box-sizing: border-box;
+    transform-origin: left;
+    transition: .5s;
+    transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
+}
+
+.card_9 .back_9.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_9 .front_9.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_9 .front_9
+{
+    transform: translateX(-100%) rotateY(90deg);
+}
+
+
+.go-back_9
+{
+    font-size: 24px;
+    color: #FFF;
+    text-align: right;
+    cursor: pointer;
+} 
+
+/* ----------------9 Cubo Gitatorio "Gundam Wing"---------------- */
+
+
+
+
+/* ----------------10 Cubo Gitatorio "Bleach"---------------- */
+
+
+.card_10
+{  
+    transform: translate(0%,0%);
+    width: 210px;
+    height: 300px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.card_10 .front_10
+{
+    width: 99.7%;
+    height: 100%;
+    background: #2196f3;    
+    box-sizing: border-box;
+    transition: .5s;
+    transform-origin: right;
+}
+
+.more_10
+{    
+    width: 100%;    
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    font-size: 24px;
+    color: #fff;  
+    display: block;
+    background:teal    
+}
+
+.card_10 .back_10
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    /* 283 */
+    /* padding: 30px; */
+    padding: 30px;
+    background: #ff2877;
+    box-sizing: border-box;
+    transform-origin: left;
+    transition: .5s;
+    transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
+}
+
+.card_10 .back_10.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_10 .front_10.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_10 .front_10
+{
+    transform: translateX(-100%) rotateY(90deg);
+}
+
+
+.go-back_10
+{
+    font-size: 24px;
+    color: #FFF;
+    text-align: right;
+    cursor: pointer;
+} 
+
+/* ----------------10 Cubo Gitatorio "Bleach"---------------- */
+
+
+
+
+
+
+
+@media(max-width : 560px)
+{
+    .card    ,
+    .card_2,
+    .card_3,
+    .card_4,
+    .card_5,
+    .card_6,
+    .card_7,
+    .card_8,
+    .card_9,
+    .card_10
+{  
+    transform: translate(0%,0%);
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+    .card .front,
+    .card_2 .front_2,
+    .card_3 .front_3,
+    .card_4 .front_4,
+    .card_5 .front_5,
+    .card_6 .front_6,
+    .card_7 .front_7,
+    .card_8 .front_8,
+    .card_9 .front_9,
+    .card_10 .front_10
+{
+    width: 150px;
+    height: 100%;           
+    box-sizing: border-box;
+    transition: .5s;
+    transform-origin: right;
+    margin: 0 auto;
+    background: #2196f3; 
+   
+}
+
+/* .bloque1 .card .front .more , 
+.bloque2 .card_2 .front_2 .more_2  */
+.more,
+.more_2,
+.more_3,
+.more_4,
+.more_5,
+.more_6,
+.more_7,
+.more_8,
+.more_9,
+.more_10
+{    
+    width: 100%;     
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    font-size: 24px;
+    color: #fff;  
+    display: block;
+    background:teal            
+  
+}
+
+
+
+.card .back,
+ .card_2 .back_2,
+.card_3 .back_3,
+.card_4 .back_4,
+.card_5 .back_5,
+.card_6 .back_6,
+.card_7 .back_7,
+.card_8 .back_8,
+.card_9 .back_9,
+.card_10 .back_10
+{
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    /* height: 283px; */
+    width: 100%;
+    height: 125%;   
+    padding: 5px;
+    background: #ff2877;
+    box-sizing: border-box;
+    transform-origin: left;
+    transition: .5s;
+    margin: 0 auto;
+    transform: translateX(100%) rotateY(90deg);
+    
+}
+
+.texto_rosa
+{
+    padding: 0 15px;
+    text-align: justify;
+    font-size: 14px;
+    
+    
+}
+
+}

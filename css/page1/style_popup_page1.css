@@ -1,0 +1,269 @@
+
+
+/* POPUP 1*/
+
+.contenedor .fila1 .fila1_columna4 .numero_tarjeta .btn-abrir-popup:hover ,.btn-abrir-popup_historia:hover
+{
+    background: rgb(158, 128, 218);
+}
+
+
+.overlay
+{
+    background: rgba(0,0,0,.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    /* ^
+       |
+    Este comando centra todo lo que tiene  */
+    /* text-align: justify; */
+
+    visibility: hidden;
+     /* ^
+       |
+    Este comando oculta todo el contenedor  */
+}
+
+
+
+.overlay.active{
+   visibility: visible;
+} 
+
+.popup
+{
+   background: whitesmoke;
+   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+   border-radius: 3px;
+   font-family: 'Montserrat' , sans-serif;
+   padding: 20px;
+   text-align: center;
+   width: 600px;
+
+   transition: .3s ease all;
+   transform: scale(0.7);
+   opacity: 0;
+/* se agrega despues de haber realizado el java */
+
+
+}
+  
+.popup .btn-cerrar-popup
+{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #bbbbbb;
+    transition: .3s ease all;
+
+}
+
+.popup .btn-cerrar-popup:hover
+{
+    color: black;
+}
+
+
+.popup h3{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    opacity: 0;
+}
+
+/* -------- */
+
+/* animate*/
+
+.popup.active {opacity: 1; transform: scale(1);}
+.popup.active h3 {animation: entradaTitulo .8s ease .5s forwards ;}
+
+@keyframes entradaTitulo{
+    from{
+        transform:translateY(-25px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* ----- */
+
+
+
+
+
+
+/* POPUP 2*/
+
+.contenedor .fila1 .fila1_columna4 .numero_tarjeta .btn-abrir-popup_2:hover 
+{
+    background: rgb(158, 128, 218);
+}
+
+.overlay_2
+{
+    background: rgba(0,0,0,.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    /* ^
+       |
+    Este comando centra todo lo que tiene  */
+    /* text-align: justify; */
+
+    visibility: hidden;
+     /* ^
+       |
+    Este comando oculta todo el contenedor  */
+}
+
+
+
+.overlay_2.active{
+   visibility: visible;
+} 
+
+.popup_2
+{
+   background: whitesmoke;
+   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+   border-radius: 3px;
+   font-family: 'Montserrat' , sans-serif;
+   padding: 20px;
+   text-align: center;
+   width: 600px;
+
+   transition: .3s ease all;
+   transform: scale(0.7);
+   opacity: 0;
+/* se agrega despues de haber realizado el java */
+
+
+}
+  
+.popup_2 .btn-cerrar-popup_2
+{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #bbbbbb;
+    transition: .3s ease all;
+
+}
+
+.popup_2 .btn-cerrar-popup_2:hover
+{
+    color: black;
+}
+
+
+.popup_2 h3{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    opacity: 0;
+}
+
+/* -------- */
+
+/* animate 2*/
+
+.popup_2.active {opacity: 1; transform: scale(1);}
+.popup_2.active h3 {animation: entradaTitulo .8s ease .5s forwards ;}
+
+@keyframes entradaTitulo{
+    from{
+        transform:translateY(-25px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* ----- */
+
+
+
+
+
+
+@media(max-width : 560px)
+     {
+        .popup.active {opacity: 1; transform: scale(0.6);}
+        .popup_2.active {opacity: 1; transform: scale(0.6);}
+
+     .contenedor .fila1 .fila1_columna4 .numero_tarjeta .btn-abrir-popup ,
+                                                        .btn-abrir-popup_2                                                     
+            {
+                /* padding: 0 20px; */
+                /* margin-bottom: 20px; */
+                /* height: 40px; */
+                height: 100%;
+                max-height: 60px;
+                width: 100%;
+                /* line-height: 40px; */
+                border: none;
+                color: whitesmoke;
+                background: mediumpurple;
+                border-radius: 3px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                cursor: pointer;
+                transition: .3s ease all;
+                cursor: pointer;
+                
+            }
+
+            
+     }
+
+
+
+
+     @media(max-width : 320px)
+     {
+        .popup.active {opacity: 1; transform: scale(0.35);}
+        .popup_2.active {opacity: 1; transform: scale(0.35);}
+
+        .contenedor .fila1 .fila1_columna4 .numero_tarjeta .btn-abrir-popup ,
+                                                           .btn-abrir-popup_2
+        {
+            /* padding: 0 20px; */
+            /* margin-bottom: 20px; */
+            /* height: 40px; */
+            height: 100%;
+            max-height: 60px;
+            width: 100%;
+            /* line-height: 40px; */
+            border: none;
+            color: whitesmoke;
+            background: mediumpurple;
+            border-radius: 3px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            cursor: pointer;
+            transition: .3s ease all;
+            cursor: pointer;
+        }
+
+       
+
+    }

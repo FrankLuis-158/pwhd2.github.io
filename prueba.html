@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="USA-en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Menu</title>
+    <!-- Fontawesome -->
+ <!-- css de la pagina index grid bloque-->
+ <!-- css de todas las pagina style barra pc y responsive-->
+ <!-- css de etiquetas icono diseño -->
+  
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+   
+    
+    
+ <!-------1--------- agregar Estilo_css al Index --------------------->
+
+ <link rel="stylesheet" href="css/style_index.css">  
+
+ <!--------1--------------------------------------------------------->
+
+
+
+ <!-------2--------- agregar Menu ----------------------------------->
+
+ <link rel="stylesheet" href="css/style_barra.css">
+ <link rel="stylesheet" href="css/fonts.css">
+ <script src="javascript/menu.js"></script>
+ <!-- javascript/jquery-latest.js trabaja con la barra_menu, sirve para escribir codigo jquery -->
+ <script src="javascript/versiones_jquery/jquery-3.6.0.js "></script>  
+
+ <!-------2---------------------------------------------------------->
+
+    
+
+
+ <!-------3--------- agregar slider banner -------------------------->
+
+<!-- Css  -->
+<!-- css nuevo -->
+<link rel="stylesheet" href="css/flexslider.css"> 
+<link rel="stylesheet" href="css/font-awesome.css">
+
+<!-- javascript -->
+<!-- libreria para escribir jquery puro -->
+<!-- javascript/versiones_jquery/jquery-3.6.0.js  trabaja con el slider banner, sirve para escribir codigo jquery -->
+<script src="javascript/versiones_jquery/jquery-3.6.0.js"></script>  <!-- 1 Libreria -->
+<script src="javascript/versiones_flexslider/jquery.flexslider.2.7.2.js"></script> <!-- 2 Plugin slider -->
+<script src="javascript/jquery_slider_banner.js"></script> <!-- 3 Clase programacion  -->
+
+<!--------3--------------------------------------------------------->
+
+
+
+    
+ <!-------4--------- agregar Ventana Popup-Modal ------------------->
+
+ <link rel="stylesheet" href="css/style_popup.css">
+ <script src="javascript/popup.js"></script>
+
+ <!-------4--------------------------------------------------------->
+
+
+
+
+<!-------5--------- cuadro florencente ------------------->
+
+<link rel="stylesheet" href="css/style_fluorecente.css">
+
+
+<!-------5--------------------------------------------------------->
+
+
+     <!--cubo giratorio  -->
+     <link rel="stylesheet" href="css/style_cubo_giratorio.css">
+    <!--  -->
+    <script src="javascript/jquery_cubo_giratorio.js"></script>
+    
+
+
+
+</head>
+<body >
+  
+
+
+    <header>
+
+
+ <!-------2--------- agregar Menu ----------------------------------->
+
+        <div class="menu_bar">
+            <a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
+        </div>
+       
+
+
+       <nav id = "navbar">
+        <ul> <!-- https://icomoon.io/app/#/select/font -->
+           <li> <a href="#"><span class="icon-home3"></span> Inicio</a> </li>               
+           <li> <a href="#"><span class="icon-aid-kit"></span> Trabajo</a> </li>
+           
+             <li class="submenu" >
+               <a href="#"><span class="icon-compass"></span> Proyectos<span class="caret icon-keyboard_arrow_down"></span>  </a>
+                <ul class="children">
+                       
+                     <li><a href="#">Sub #1 <span class="icon-home3"></span></a></li>
+                     <li><a href="#">Sub #2 <span class="icon-home3"></span></a></li>
+                     <li><a href="#">Sub #3 <span class="icon-home3"></span></a></li>
+                                                
+                </ul> 
+           </li>
+           <!-- <li id="seccion1" onmouseover="ver(1)" onmouseout="ocultar(1)"></li> <a href="#"><span class="icon-compass"></span>Sección Uno<span class="caret icon-keyboard_arrow_down"></span></a> </li> -->
+             <!-- <li id="seccion1" onmouseover="ver(1)" onmouseout="ocultar(1)"><a href="#">Sección Uno</a>
+                <div id="subseccion1">
+                <p><a href="#"> Subsección uno uno</a></p>
+                <p><a href="#"> Subsección uno dos</a></p>
+                <p><a href="#"> Subsección uno tres</a></p>
+                <p><a href="#"> Subsección uno cuatro</a></p> 
+                </div>
+             </li> -->
+
+            <li> <a href="#"><span class="icon-earth"></span> Servicios</a> </li>
+           <li> <a href="#"><span class="icon-mail2"></span> Contactos</a> </li> 
+
+           <!-- <script type="text/javascript">
+            function ver(n) {
+                     document.getElementById("subseccion"+n).style.display="block"
+                     }
+            function ocultar(n) {
+                     document.getElementById("subseccion"+n).style.display="none"
+                     }
+            </script> -->
+       </ul>
+       </nav>
+
+ <!-------2---------------------------------------------------------->
+
+
+    </header>
+
+
+
+
+ <!-------3--------- agregar slider banner -------------------------->
+
+ <h1 class="banner-title" id="banner-title">Slider Responsive con Flexslider</h1>
+ <div class="flexslider">
+     <ul class="slides">
+            <li>
+                <img loading = "lazy" src="img/caballeros_de_oro/logo/logo4.jpg" alt="">
+                <section class="caption">
+                  <h2>Lorem slider #1</h2>
+                </section>
+            </li>
+            <li>
+                <img loading = "lazy" src="img/caballeros_de_oro/logo/logo5.jpg" alt="">
+                <section class="caption">
+                  <h2>Lorem slider #2</h2>
+                </section>
+            </li>
+            <li>
+                <img loading = "lazy" src="img/caballeros_de_oro/logo/logo6.jpg" alt="">
+                <section class="caption">
+                  <h2>Lorem slider #3</h2>
+                </section>
+            </li>
+     </ul>
+ </div>
+
+<!--------3--------------------------------------------------------->
+
+
+
+
+
+    <div class="contenedor">   
+         <article>
+            <h1>Ventana Emergente Animada</h1>
+            <button class="btn-abrir-popup" id="btn-abrir-popup">Abrir Ventana Emergente</button>
+            <p>
+            What is Lorem Ipsum?
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    
+            Why do we use it?
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    
+
+            Where does it come from?
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+            Where can I get some?
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+        </p>
+        </article>
+
+<!-------4--------- agregar Ventana Popup-Modal ------------------->
+
+        <div class="overlay" id="overlay">
+            <div class="popup" id="popup">
+                    <a href="#"  id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                    <h3>SUSCRIBETE</h3>
+                    <h4>y recibe un cupon de descuento</h4>
+                    <form action="">
+                        <div class="contenedor-inputs">
+                            <input type="text"  placeholder="Nombre">
+                            <input type="email"  placeholder="Corrreo">
+                            <img src="img/1.png" alt="">
+                        </div>
+                        <input type="submit"  class="btn-submit" value="Suscribirse">
+                    </form>
+            </div>
+
+        </div>
+
+ <!-------4--------------------------------------------------------->
+    </div>
+
+
+    <!-------5--------- cuadro florencente ------------------->
+
+    <div class="container">
+        <div class= "box">
+            <span></span>
+            <div class="content">
+                <h2>Card One</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nihil minus, aperiam porro quod officiis.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>   
+        <div class= "box">
+            <span></span>
+            <div class="content">
+                <h2>Card two</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nihil minus, aperiam porro quod officiis.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div> 
+        <div class= "box">
+            <span></span>
+            <div class="content">
+                <h2>Card tree</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nihil minus, aperiam porro quod officiis.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>          
+    </div>
+    
+     <!-------5--------------------------------------------------------->
+
+<!-------6--------- cubo giratorio ------------------->
+
+<div class="card">
+    <div class= "front active">
+        <div class="location">New Delhi</div>
+        <div class="more"><i class="fa fa-info-circle" aria-hidden="true"></i></div>
+        <div class="weather">
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            <h1>8<sup>o</sup><br><span>Today</span></h1>
+        </div>  
+        <ul class="forecast">
+            <li>
+                <div class="day">Sunday</div>
+                <div class="temprature"><i class="fa fa-cloud" aria-hidden="true"></i> 9<sup>o</sup></div>
+            </li>
+            <li>
+                <div class="day">Sunday</div>
+                <div class="temprature"><i class="fa fa-tint" aria-hidden="true"></i> 6<sup>o</sup></div>
+            </li>
+            <li>
+                <div class="day">Sunday</div>
+                <div class="temprature"><i class="fa fa-snowflake" aria-hidden="true"></i> 2<sup>o</sup></div>
+            </li>
+        </ul>      
+    </div>       
+    
+    <div class="back">
+        <div class="go-back"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></div>                     
+        <ul class="forecast">
+            <li>
+                <div class="day">Yesterday</div>
+                <div class="temprature"><i class="fa fa-cloud" aria-hidden="true"></i> 3<sup>o</sup></div>
+            </li>
+            <li>
+                <div class="day">Today</div>
+                <div class="temprature"><i class="fa fa-tint" aria-hidden="true"></i> 6<sup>o</sup></div>
+            </li>
+            <li>
+                <div class="day">Sunday</div>
+                <div class="temprature"><i class="fa fa-snowflake" aria-hidden="true"></i> 2<sup>o</sup></div>
+            </li>
+        </ul> 
+    </div>       
+</div>
+
+
+ <!-------6--------------------------------------------------------->
+
+
+<script src="javascript/popup.js"></script>
+
+
+<!---------------------- tarjeta de presentacion  ------------>
+<div id="play" class="card_50">
+    <div class="imgBox">
+        <img src="/img/tarjeta_presentacion/tarjeta_presentacion1.gif" alt="">
+        <img src="/img/tarjeta_presentacion/tarjeta_presentacion2.jpg" alt="">
+    </div>    
+    <div  class="details">
+        <div class="content">
+           
+            <h2>Frank S. M.<br> <span>Gerente General</span></h2>
+            
+             <div class="social-icons">
+                 <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                 <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                 <a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                 <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+             </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!---------------------- tarjeta de presentacion  ------------>
+
+
+
+
+<link rel="stylesheet" href="css/style_tarje_presentacion.css">
+
+
+ 
+
+
+    <!-- <button id="play"> Play</button>
+    <button id="mute"> Mute</button> -->
+
+
+
+<script>
+    var musik = new Audio();
+    musik.src = "musica/portada.mp3";
+    musik.loop = true;
+    // musik.play();
+
+
+function mulaiAudio()
+{
+    var play = document.getElementById("play");
+    var mute = document.getElementById("mute");
+
+    play.addEventListener('click',fplay);
+    mute.addEventListener('click',fmute);
+
+    function fplay(){
+        if(musik.paused){
+           musik.play();
+        //    play.style.background = "url(/img/tarjeta_presentacion/tarjeta_presentacion2.jpg)";
+        } else{
+            musik.pause();
+        //    play.style.background = "url(/img/tarjeta_presentacion/tarjeta_presentacion3.jpg)"; 
+        }
+    }
+
+function fmute(){
+    if(musik.muted){
+        musik.muted = false;
+        // mute.style.background = "url(/img/tarjeta_presentacion/tarjeta_presentacion2.jpg)";
+    }else{
+            musik.muted= true;
+            // mute.style.background = "url(/img/tarjeta_presentacion/tarjeta_presentacion3.jpg)"; 
+        }
+}
+
+
+}
+
+window.addEventListener('load',mulaiAudio);
+
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
